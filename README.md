@@ -1,2 +1,2 @@
 # Administracion-servidores
-Guias de configuración para la gestión de servidores y networking.
+Información, novedades y guias de configuración para la gestión de servidores y networking.
