@@ -1,0 +1,125 @@
+Novedades de Windows Server 2022
+
+En este artículo se describen algunas de las nuevas características de Windows Server 2022. Windows Server 2022 se basa en Windows Server 2019 y aporta muchas innovaciones en tres temas clave: seguridad, integración y administración híbridas de Azure y plataforma de aplicaciones.
+
+A continuación, se describen las características de Windows Server 2022 en todas las ediciones. 
+
+Seguridad
+
+Las nuevas funcionalidades de seguridad de Windows Server 2022 combinan otras funcionalidades de seguridad de Windows Server en varias áreas para proporcionar protección en profundidad contra amenazas avanzadas. La seguridad avanzada de varias capas de Windows Server 2022 proporciona la protección completa que los servidores necesitan actualmente.
+
+Servidor con núcleo protegido
+
+El hardware de servidor certificado con núcleo protegido de un asociado de OEM proporciona más protecciones de seguridad que resultan útiles contra ataques sofisticados. Este hardware puede proporcionar mayor seguridad al trabajar con datos críticos en algunos de los sectores de datos más confidenciales. Un servidor con núcleo protegido usa funcionalidades de hardware, firmware y controlador para habilitar las características de seguridad avanzadas de Windows Server. Muchas de estas características están disponibles en PC con núcleo protegido de Windows y ahora también están disponibles en hardware de servidor con núcleo protegido y Windows Server 2022. Para obtener más información sobre el servidor de núcleo protegido, vea Servidor de núcleo protegido.
+
+Raíz de confianza de hardware
+
+Utilizados por características como el cifrado de unidad BitLocker, los chips de procesadores de criptografía seguros del Módulo de plataforma segura 2.0 (TPM 2.0) proporcionan un almacén seguro basado en hardware para datos y claves criptográficas confidenciales, incluidas las medidas de integridad de los sistemas. TPM 2.0 puede comprobar que el servidor se ha iniciado con código legítimo y puede ser de confianza en la ejecución posterior del código, lo cual se conoce como raíz de confianza de hardware.
+
+Protección de firmware
+
+El firmware se ejecuta con privilegios elevados y a menudo es invisible para las soluciones antivirus tradicionales, lo que ha dado lugar a un aumento en el número de ataques basados en firmware. Los servidores con núcleo protegido miden y comprueban los procesos de arranque con la tecnología de raíz dinámica de confianza para la medida (DRTM). Los servidores con núcleo protegido también pueden aislar el acceso del controlador a la memoria con la protección de acceso directo a memoria (DMA).
+
+Arranque seguro UEFI
+
+El arranque seguro UEFI es un estándar de seguridad que protege los servidores de rootkits malintencionados. El arranque seguro garantiza que el servidor arranque solo el firmware y el software de confianza del fabricante de hardware. Cuando se inicia el servidor, el firmware comprueba la firma de cada componente de arranque, incluidos los controladores de firmware y el sistema operativo. Si las firmas son válidas, el servidor arranca y el firmware proporciona control al sistema operativo.
+
+Seguridad basada en virtualización (VBS)
+
+Los servidores con núcleo protegido admiten la seguridad basada en virtualización (VBS) y la integridad de código basada en hipervisor (HVCI). VBS usa características de virtualización de hardware para crear y aislar una región segura de memoria del sistema operativo normal, y ofrecer protección contra toda una clase de vulnerabilidades usadas en ataques de minería de criptomonedas. VBS también permite el uso de Credential Guard. En este caso, las credenciales de usuario y los secretos se almacenan en un contenedor virtual al que el sistema operativo no puede acceder directamente.
+
+HVCI usa VBS para reforzar significativamente la aplicación de directivas de integridad de código. La integridad del modo kernel impide que los controladores del modo kernel sin firmar o los archivos del sistema se carguen en la memoria del sistema.
+
+Kernel Data Protection (KDP) proporciona protección de memoria de solo lectura de la memoria del kernel que contiene datos no ejecutables donde las páginas de memoria están protegidas por Hypervisor. KDP protege las estructuras clave en el entorno de ejecución de Protección del sistema de Windows Defender para que no sean manipuladas.
+
+
+Conectividad segura
+
+Transporte: HTTPS y TLS 1.3 habilitados de forma predeterminada en Windows Server 2022
+Las conexiones seguras son la base de los sistemas interconectados de la actualidad. Seguridad de la capa de transporte (TLS) 1.3 es la versión más reciente del protocolo de seguridad más implementado en Internet, que cifra los datos para proporcionar un canal de comunicación seguro entre dos puntos de conexión. HTTPS y TLS 1.3 ahora están habilitados de forma predeterminada en Windows Server 2022 para proteger los datos de los clientes que se conectan al servidor. Elimina algoritmos criptográficos obsoletos, mejora la seguridad con respecto a las versiones anteriores e intenta cifrar la mayor parte del protocolo de enlace posible. Obtenga más información sobre las versiones de TLS compatibles y sobre los conjuntos de cifrado admitidos.
+Aunque TLS 1.3 a nivel de protocolo ahora está habilitado de manera predeterminada, las aplicaciones y servicios también deben admitirla activamente. En el blog de seguridad de Microsoft encontrará más detalles en la entrada Llevar la Seguridad de la capa de transporte (TLS) al siguiente nivel con TLS 1.3.
+
+DNS seguro: solicitudes cifradas de resolución de nombres DNS con DNS sobre HTTPS
+El cliente DNS de Windows Server 2022 ahora admite DNS sobre HTTPS (DoH), que cifra las consultas de DNS mediante el protocolo HTTPS. DoH contribuye a mantener el tráfico lo más privado posible evitando la interceptación y la manipulación de los datos DNS. Obtenga más información sobre cómo configurar el cliente DNS para usar DoH.
+
+Bloque de mensajes del servidor (SMB): cifrado SMB AES-256 para cuando la seguridad es la prioridad
+Ahora, Windows Server admite los conjuntos criptográficos AES-256-GCM y AES-256-CCM para el cifrado de SMB. Windows negociará automáticamente este método de cifrado más avanzado al conectarse a otro equipo que lo admita; esta opción también puede ser obligatoria a través de las directivas de grupo. Windows Server sigue siendo compatible con AES-128 para ofrecer compatibilidad de nivel inferior. Ahora, la firma AES-128-GMAC también acelera el rendimiento de firma.
+
+SMB: cifrado SMB de derecha a izquierda para comunicaciones internas del clúster
+Los clústeres de conmutación por error de Windows Server ahora admiten un control pormenorizado del cifrado y la firma de las comunicaciones de almacenamiento dentro del nodo para volúmenes compartidos de clúster (CSV) y la capa de bus de almacenamiento (SBL). Al usar Espacios de almacenamiento directo, ahora puede optar por cifrar o firmar las comunicaciones horizontales de derecha a izquierda dentro del propio clúster para obtener una mayor seguridad.
+
+SMB directo y cifrado RDMA
+SMB directo y RDMA ofrecen un tejido de red de baja latencia y alto ancho de banda para cargas de trabajo como Espacios de almacenamiento directo, Réplica de almacenamiento, Hyper-V, Servidor de archivos de escalabilidad horizontal y SQL Server. SMB directo en Windows Server 2022 ahora admite el cifrado. Anteriormente, habilitar el cifrado SMB deshabilitaba la selección de ubicación directa de los datos; esto era intencionado, pero afectaba gravemente al rendimiento. Ahora los datos se cifran antes de la selección de ubicación, lo que provoca una degradación del rendimiento muchísimo menor, a la vez que se agrega la privacidad de paquetes protegidos AES-128 y AES-256.
+Puede encontrar más información sobre el cifrado SMB, la aceleración de firma, el RDMA seguro y la compatibilidad con clústeres en Mejoras de seguridad de SMB.
+
+Funcionalidades del entorno híbrido de Azure
+
+Puede aumentar su eficacia y agilidad con funcionalidades híbridas integradas en Windows Server 2022 que le permiten ampliar los centros de datos a Azure más fácilmente que nunca.
+
+Servidores de Windows habilitados para Azure Arc
+
+Los servidores habilitados para Azure Arc con Windows Server 2022 llevan a las instancias de Windows Server locales y multinube a Azure con Azure Arc. Esta experiencia de administración está diseñada para ser coherente con la forma en que administra máquinas virtuales nativas de Azure. Cuando una máquina híbrida se conecta a Azure, se convierte en una máquina conectada y se trata como un recurso de Azure. Puede encontrar más información en la documentación de los servidores habilitados para Azure Arc.
+
+Windows Admin Center
+
+Las mejoras en Windows Admin Center para administrar Windows Server 2022 incluyen funcionalidades para informar sobre el estado actual de las características de núcleo protegido mencionadas anteriormente y, si procede, permitir a los clientes habilitar las características. Puede encontrar más información sobre estas y muchas más mejoras de Windows Admin Center en la documentación de Windows Admin Center.
+
+
+
+
+
+Otras características importantes
+
+Administrador de Hyper-V y el Programador de tareas para instalaciones básicas
+Hemos agregado dos herramientas de administración al paquete de características a petición App Compatibility en esta versión: Programador de tareas (taskschd.msc) y Administrador de Hyper-V (virtmgmt.msc). Para obtener más información, consulte la característica de compatibilidad de aplicaciones de Server Core a petición (FOD).
+
+Virtualización anidada para procesadores AMD
+La virtualización anidada es una característica que te permite ejecutar Hyper-V dentro de una máquina virtual (VM) de Hyper-V. Windows Server 2022 brinda soporte para la virtualización anidada utilizando procesadores AMD, lo que ofrece más opciones de hardware para sus entornos. Puede encontrar más información en la documentación de virtualización anidada.
+
+Explorador Microsoft Edge
+Microsoft Edge se incluye con Windows Server 2022, como reemplazo de Internet Explorer. Está construido sobre código abierto Chromium y respaldado por la seguridad e innovación de Microsoft. Se puede utilizar con las opciones de instalación Servidor con Experiencia de escritorio. Puede encontrar más información en la documentación de Microsoft Edge Enterprise. Microsoft Edge, a diferencia del resto de Windows Server, sigue el ciclo de vida moderno para su ciclo de vida de soporte. Para más información, consulte la documentación del ciclo de vida de Microsoft Edge.
+
+Rendimiento de redes
+
+Mejoras en el rendimiento de UDP
+UDP se está convirtiendo en un protocolo popular, que lleva cada vez más tráfico de red debido a la creciente popularidad de los protocolos de juegos y streaming personalizados (UDP) y RTP. El protocolo QUIC, basado en UDP, lleva el rendimiento de UDP a un nivel a la par que TCP. Al respecto, Windows Server 2022 incluye la descarga de segmentación UDP (USO). USO traslada la mayor parte del trabajo necesario para enviar paquetes UDP de la CPU al hardware especializado del adaptador de red. Como complemento de USO, se encuentra la fusión de recepción USDP (UDP RSC), que fusiona paquetes y reduce el uso de CPU para el procesamiento de UDP. Además, también hemos realizado cientos de mejoras en el recorrido de los datos UDP, tanto de transmisión como de recepción. Tanto Windows Server 2022 como Windows 11 tienen esta nueva funcionalidad.
+
+
+
+Mejoras en el rendimiento de TCP
+Windows Server 2022 usa TCP HyStart++ para reducir la pérdida de paquetes durante el inicio de la conexión (especialmente en redes de alta velocidad), y RACK para reducir los tiempos de espera de retransmisión (RTO). Estas características están habilitadas en la pila de transporte de manera predeterminada, y brindan un flujo de datos de red más uniforme con un mejor rendimiento a alta velocidad. Tanto Windows Server 2022 como Windows 11 tienen esta nueva funcionalidad.
+
+Mejoras del conmutador virtual de Hyper-V
+Los conmutadores virtuales de Hyper-V se han mejorado con la fusión de segmentos de recepción (RSC). RSC permite que la red del hipervisor fusione los paquetes y los procese como un segmento más grande. Los ciclos de CPU se reducen, y los segmentos permanecerán fusionados en todo el recorrido de los datos hasta que la aplicación deseada los procese. Esto se traduce en un rendimiento mejorado del tráfico de red desde un host externo, recibido por una NIC virtual, así como desde una NIC virtual a otra NIC virtual en el mismo host.
+
+Detección de anomalías de disco con Información del sistema
+Información del sistema tiene otra funcionalidad a través de la detección de anomalías de disco de Windows Admin Center.
+La detección de anomalías de disco es una nueva funcionalidad que avisa cuando los discos se comportan de una forma diferente a la habitual. Aunque diferentes no significa necesariamente algo malo, ver estas anomalías puede resultar útil para solucionar problemas en los sistemas. Esta funcionalidad también está disponible para los servidores que ejecutan Windows Server 2019.
+
+Mejoras en la reversión de Windows Update
+Ahora, los servidores pueden recuperarse automáticamente de errores de inicio mediante la eliminación de las actualizaciones si el error se introdujo después de instalar actualizaciones de Windows de calidad o de controladores recientes. Cuando un dispositivo no puede iniciarse correctamente después de una instalación reciente de actualizaciones de calidad o de controladores, Windows desinstalará automáticamente las actualizaciones para que el dispositivo vuelva a funcionar con normalidad.
+Esta funcionalidad requiere que el servidor use la opción de instalación básica con una partición Entorno de recuperación de Windows.
+
+Storage
+
+Servicio de migración de almacenamiento
+Las mejoras en el servicio de migración de almacenamiento en Windows Server 2022 facilitan la migración del almacenamiento a Windows Server o Azure desde más ubicaciones de origen. Estas son las características que están disponibles cuando se ejecuta el orquestador del servidor de migración de almacenamiento en Windows Server 2022:
+	Migrar usuarios y grupos locales al nuevo servidor.
+	Migrar el almacenamiento desde clústeres de conmutación por error, migrar a clústeres de conmutación por error y migrar entre servidores independientes y clústeres de conmutación por error.
+	Migrar el almacenamiento desde un servidor Linux que use Samba.
+	Sincronizar más fácilmente los recursos compartidos migrados a Azure mediante Azure File Sync.
+	Migrar a nuevas redes, como Azure.
+	Migre los servidores CIFS de NetApp desde las matrices FAS de NetApp a los clústeres y servidores de Windows.
+Velocidad de reparación de almacenamiento ajustable
+La velocidad de reparación de almacenamiento ajustable por el usuario es una nueva característica de Espacios de almacenamiento directo que ofrece más control sobre el proceso de resincronización de datos. La velocidad de reparación de almacenamiento ajustable le permite asignar recursos para reparar copias de datos (resistencia) o para ejecutar cargas de trabajo activas (rendimiento). Controlar la velocidad de reparación ayuda a mejorar la disponibilidad y permite dar servicio a los clústeres de manera más flexible y eficaz.
+
+Reparación y resincronización más rápidas
+La reparación y resincronización de almacenamiento después de eventos como reinicios de nodos y errores de disco ahora son el doble de rápidas. Las reparaciones tienen menor varianza en el tiempo, por lo que estará más seguro de cuánto tiempo tardarán las reparaciones, lo que se ha logrado mediante la adición de más granularidad al seguimiento de datos. Ahora, las reparaciones solo trasladan los datos que deben trasladarse, con lo que se reducen los recursos del sistema usados y el tiempo necesario.
+Caché del bus de almacenamiento con Espacios de almacenamiento en servidores independientes
+La caché de bus de almacenamiento está ahora disponible para servidores independientes. Puede mejorar significativamente el rendimiento de lectura y escritura, al tiempo que mantiene la eficacia del almacenamiento y mantiene unos costos operativos reducidos. De forma similar a su implementación para Espacios de almacenamiento directo, esta característica enlaza medios más rápidos (por ejemplo, NVMe o SSD) con medios más lentos (por ejemplo, HDD) para crear niveles. Una parte del nivel de medios más rápidos está reservada para la caché. Para más información, consulte Habilitación de la caché del bus de almacenamiento con Espacios de almacenamiento en servidores independientes.
+
+Instantáneas a nivel de archivo de ReFS
+El Sistema de archivos resistente (ReFS) de Microsoft ahora incluye la capacidad de crear instantáneas de archivos mediante una operación rápida de metadatos. Las instantáneas son diferentes de la clonación de bloques de ReFS, ya que se puede escribir en los clones, mientras que las instantáneas son de solo lectura. Esta funcionalidad es especialmente útil en escenarios de copia de seguridad de máquinas virtuales con archivos VHD/VHDX. Las instantáneas de ReFS son únicas, ya que tardan un tiempo constante independientemente del tamaño del archivo. La compatibilidad con instantáneas está disponible en ReFSUtil o como API.
+
+Compresión de SMB
+La mejora de SMB en Windows Server 2022 y Windows 11 permite a un usuario o aplicación comprimir archivos a medida que se transfieren a través de la red. Los usuarios ya no tienen que comprimir manualmente los archivos para transferirlos mucho más rápidamente en redes más lentas o más congestionadas. Para más información, consulte Compresión de SMB.
