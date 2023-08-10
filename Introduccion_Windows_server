@@ -1,37 +1,36 @@
 
 # Introducción a Windows Server
 
-Windows Server es un sistema operativo desarrollado por Microsoft como parte de su familia de sistemas operativos Windows. A diferencia de las versiones de escritorio de Windows (como Windows 10), que están diseñadas principalmente para usuarios finales y tareas de computación personal, Windows Server está diseñado específicamente para funcionar como un sistema operativo en servidores, lo que implica gestionar recursos, servicios y aplicaciones en una red de computadoras.
+Windows Server es un sistema operativo desarrollado por Microsoft como parte de su familia de sistemas operativos Windows. A diferencia de las versiones de escritorio de Windows (como Windows 10), 
+que están diseñadas principalmente para usuarios finales y tareas de computación personal, Windows Server está diseñado específicamente para funcionar como un sistema operativo en servidores, lo 
+que implica gestionar recursos, servicios y aplicaciones en una red de computadoras.
 
 Windows Server ofrece una serie de características y capacidades diseñadas para satisfacer las necesidades de las empresas y organizaciones, incluyendo:
 
 - Gestión de Usuarios y Grupos:
     Windows Server proporciona herramientas para administrar usuarios, grupos y políticas de seguridad en una red. Esto es crucial para controlar el acceso a los recursos y mantener la seguridad de los datos.
-
 - Servicios de Dominio:
-    Servicios de Dominio: Windows Server es capaz de funcionar como un controlador de dominio en una red. Los controladores de dominio son esenciales para gestionar la autenticación y la autorización de usuarios en una red de múltiples equipos.
-
+    Servicios de Dominio: Windows Server es capaz de funcionar como un controlador de dominio en una red. Los controladores de dominio son esenciales para gestionar la autenticación y la autorización de usuarios 
+    en una red de múltiples equipos.
 - Servicios de Archivos y Almacenamiento:
     Windows Server incluye servicios para configurar y gestionar sistemas de almacenamiento en red, permitiendo compartir archivos y carpetas de manera centralizada.
-
 - Servicios de Aplicaciones:
-    Servicios de Aplicaciones: Windows Server es compatible con una amplia gama de aplicaciones empresariales y servicios, como bases de datos, servidores web, servidores de correo electrónico, servidores DNS, entre otros.
-
+    Servicios de Aplicaciones: Windows Server es compatible con una amplia gama de aplicaciones empresariales y servicios, como bases de datos, servidores web, servidores de correo electrónico, servidores DNS, 
+    entre otros.
 - Virtualización:
     Windows Server incluye la funcionalidad de Hyper-V, que permite la virtualización de servidores y la creación de máquinas virtuales, lo que ayuda a optimizar los recursos de hardware y simplificar la administración.
-
 - Gestión Centralizada:
-    Windows Server ofrece herramientas de administración centralizada, como el Administrador del servidor y las herramientas de Administración Remota del Servidor (RSAT), que permiten gestionar múltiples servidores desde una ubicación central.
-
+    Windows Server ofrece herramientas de administración centralizada, como el Administrador del servidor y las herramientas de Administración Remota del Servidor (RSAT), que permiten gestionar múltiples servidores 
+    desde una ubicación central.
 - Seguridad y Políticas:
     Windows Server incluye funciones de seguridad avanzadas, como BitLocker para el cifrado de unidades y Directiva de grupo para establecer políticas de seguridad en toda la red.
-
 - Escalabilidad y Rendimiento:
     Windows Server está diseñado para manejar cargas de trabajo pesadas y altos niveles de tráfico en una red empresarial, lo que lo convierte en una opción sólida para empresas de diversos tamaños.
 
-En resumen, Windows Server es un sistema operativo diseñado para cumplir con las necesidades de las empresas y organizaciones al proporcionar herramientas y funciones que permiten la gestión de recursos, servicios y aplicaciones en una red de servidores.
-
+En resumen, Windows Server es un sistema operativo diseñado para cumplir con las necesidades de las empresas y organizaciones al proporcionar herramientas y funciones que permiten la gestión de recursos, servicios 
+y aplicaciones en una red de servidores.
 
 # EObtener información
 
-Consulte las rutas de aprendizaje para Windows Server. De esta manera, podrá aprender nuevas aptitudes y acelerar los procesos de implementación con instrucciones paso a paso. Puede aprender a implementar, configurar y administrar Windows Server, así como la infraestructura de red, los servidores de archivos y la administración de almacenamiento, Hyper-V y virtualización, y mucho más.
+Consulte las rutas de aprendizaje para Windows Server. De esta manera, podrá aprender nuevas aptitudes y acelerar los procesos de implementación con instrucciones paso a paso. Puede aprender a implementar, configurar
+y administrar Windows Server, así como la infraestructura de red, los servidores de archivos y la administración de almacenamiento, Hyper-V y virtualización, y mucho más.
