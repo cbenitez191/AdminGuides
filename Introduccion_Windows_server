@@ -1,7 +1,9 @@
 
 # Introducción a Windows Server
 
-Windows Server es un sistema operativo desarrollado por Microsoft como parte de su familia de sistemas operativos Windows. A diferencia de las versiones de escritorio de Windows (como Windows 10), que están diseñadas principalmente para usuarios finales y tareas de computación personal, Windows Server está diseñado específicamente para funcionar como un sistema operativo en servidores, lo que implica gestionar recursos, servicios y aplicaciones en una red de computadoras.
+Windows Server es un sistema operativo desarrollado por Microsoft como parte de su familia de sistemas operativos Windows. A diferencia de las versiones de escritorio de Windows (como Windows 10), 
+que están diseñadas principalmente para usuarios finales y tareas de computación personal, Windows Server está diseñado específicamente para funcionar como un sistema operativo en servidores, lo 
+que implica gestionar recursos, servicios y aplicaciones en una red de computadoras.
 
 Windows Server ofrece una serie de características y capacidades diseñadas para satisfacer las necesidades de las empresas y organizaciones, incluyendo:
 
@@ -25,6 +27,7 @@ Windows Server ofrece una serie de características y capacidades diseñadas par
 En resumen, Windows Server es un sistema operativo diseñado para cumplir con las necesidades de las empresas y organizaciones al proporcionar herramientas y funciones que permiten la gestión de recursos, servicios y aplicaciones en una red de servidores.
 
 
-# EObtener información
+# Obtener información
 
-Consulte las rutas de aprendizaje para Windows Server. De esta manera, podrá aprender nuevas aptitudes y acelerar los procesos de implementación con instrucciones paso a paso. Puede aprender a implementar, configurar y administrar Windows Server, así como la infraestructura de red, los servidores de archivos y la administración de almacenamiento, Hyper-V y virtualización, y mucho más.
+Consulte las rutas de aprendizaje para Windows Server. De esta manera, podrá aprender nuevas aptitudes y acelerar los procesos de implementación con instrucciones paso a paso. Puede aprender a implementar, configurar
+y administrar Windows Server, así como la infraestructura de red, los servidores de archivos y la administración de almacenamiento, Hyper-V y virtualización, y mucho más.
