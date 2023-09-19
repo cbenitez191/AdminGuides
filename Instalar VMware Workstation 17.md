@@ -9,31 +9,31 @@ que es una de las ediciones más populares de VMware para entornos de estación 
 
 - [x] Abre tu navegador web y ve al sitio web oficial de VMware: https://www.vmware.com/.
 - [x] Navega hasta la sección "Productos" y selecciona "VMware Workstation".
-- [x] Haz clic en "Descargar ahora" para la última versión de VMware Workstation. #739
+- [x] Haz clic en "Descargar ahora" para la última versión de VMware Workstation.
 
 ## Paso 2: Ejecutar el Instalador. 
 
-* Una vez que se complete la descarga, busca el archivo de instalación descargado (por lo general, tiene una extensión .exe) y haz doble clic en él para ejecutarlo.
-* Si se te solicita, acepta los términos y condiciones de la licencia y sigue las instrucciones en pantalla para continuar.
+- [x] Una vez que se complete la descarga, busca el archivo de instalación descargado (por lo general, tiene una extensión .exe) y haz doble clic en él para ejecutarlo.
+- [x] Si se te solicita, acepta los términos y condiciones de la licencia y sigue las instrucciones en pantalla para continuar.
 
 ## Paso 3: Configurar la Instalación.
 
-* En la pantalla de configuración, puedes elegir si deseas permitir la participación en el programa de mejora de productos de VMware y si deseas realizar la instalación típica o 
+- [x] En la pantalla de configuración, puedes elegir si deseas permitir la participación en el programa de mejora de productos de VMware y si deseas realizar la instalación típica o 
 personalizada. La instalación típica es adecuada para la mayoría de los usuarios, pero puedes seleccionar la personalizada si deseas especificar opciones específicas.
-* Sigue las instrucciones en pantalla para configurar las opciones de instalación, como la ubicación de instalación y el nombre de usuario y contraseña para la licencia (si se requiere).
-* Haz clic en "Siguiente" y luego en "Instalar" para comenzar la instalación.
+- [x] Sigue las instrucciones en pantalla para configurar las opciones de instalación, como la ubicación de instalación y el nombre de usuario y contraseña para la licencia (si se requiere).
+- [x] Haz clic en "Siguiente" y luego en "Instalar" para comenzar la instalación.
 
 ## Paso 4: Completar la Instalación.
 
-La instalación de VMware Workstation llevará unos minutos. Una vez completada, verás un mensaje de confirmación. Haz clic en "Finalizar" para cerrar el asistente de instalación.
+- [x] La instalación de VMware Workstation llevará unos minutos. Una vez completada, verás un mensaje de confirmación. Haz clic en "Finalizar" para cerrar el asistente de instalación.
 
 ## Paso 5: Iniciar VMware Workstation.
 
-* Busca el icono de VMware Workstation en tu escritorio o en el menú de inicio de Windows y haz doble clic en él para abrir la aplicación.
-* Cuando se inicie VMware Workstation, se te pedirá que ingreses tu clave de licencia o que elijas la opción de prueba gratuita si aún no tienes una licencia.
-* ¡Listo! Ahora tienes VMware Workstation instalado en tu sistema Windows y estás listo para crear y gestionar máquinas virtuales. Puedes crear nuevas máquinas virtuales desde cero o
+- [x] Busca el icono de VMware Workstation en tu escritorio o en el menú de inicio de Windows y haz doble clic en él para abrir la aplicación.
+- [x] Cuando se inicie VMware Workstation, se te pedirá que ingreses tu clave de licencia o que elijas la opción de prueba gratuita si aún no tienes una licencia.
+- [x] ¡Listo! Ahora tienes VMware Workstation instalado en tu sistema Windows y estás listo para crear y gestionar máquinas virtuales. Puedes crear nuevas máquinas virtuales desde cero o
   importar máquinas virtuales existentes.
-* Recuerda que VMware Workstation tiene una amplia gama de características avanzadas para la virtualización y la gestión de máquinas virtuales, por lo que te recomendamos explorar la
+- [x] Recuerda que VMware Workstation tiene una amplia gama de características avanzadas para la virtualización y la gestión de máquinas virtuales, por lo que te recomendamos explorar la
   documentación y tutoriales de VMware para aprovechar al máximo esta potente herramienta.
 
 > [!NOTE]
