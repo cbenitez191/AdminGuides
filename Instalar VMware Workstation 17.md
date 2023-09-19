@@ -1,4 +1,4 @@
-![VMware-Logo](https://github.com/wobistdu003/Administracion-servidores-windows/assets/110427600/1453359c-fe85-4df6-ab47-a7764beb8f6e)
+![VMware-Logo](https://github.com/wobistdu003/Administracion-servidores-windows/assets/110427600/63267169-5334-4ce1-bc70-53b056bc2c0b)
 
 # Guía para Instalar VMware Workstation 17.
 
