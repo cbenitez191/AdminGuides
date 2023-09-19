@@ -1,6 +1,6 @@
+![VMware-Logo](https://github.com/wobistdu003/Administracion-servidores-windows/assets/110427600/49ad05dc-30ee-4e1f-8714-b86cf5d96bb2)
 
-# Guía para Insta![-logo-png](https://github.com/wobistdu003/Administracion-servidores-windows/assets/110427600/d3612c70-d2ad-4006-bac2-7d7748186f6f)
-lar VMware Workstation 17.
+# Guía para Instalar VMware Workstation 17.
 
 VMware es una plataforma de virtualización que te permite ejecutar múltiples sistemas operativos en una sola máquina física. En esta guía, utilizaremos VMware Workstation, 
 que es una de las ediciones más populares de VMware para entornos de estación de trabajo.
