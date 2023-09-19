@@ -1,8 +1,5 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-</picture>
+
+
 # Guía para Instalar VMware Workstation 17.
 
 VMware es una plataforma de virtualización que te permite ejecutar múltiples sistemas operativos en una sola máquina física. En esta guía, utilizaremos VMware Workstation, 
@@ -10,9 +7,9 @@ que es una de las ediciones más populares de VMware para entornos de estación 
 
 ## Paso 1: Descargar VMware Workstation.
 
-* Abre tu navegador web y ve al sitio web oficial de VMware: https://www.vmware.com/.
++ Abre tu navegador web y ve al sitio web oficial de VMware: https://www.vmware.com/.
 * Navega hasta la sección "Productos" y selecciona "VMware Workstation".
-* Haz clic en "Descargar ahora" para la última versión de VMware Workstation.
+- Haz clic en "Descargar ahora" para la última versión de VMware Workstation.
 
 ## Paso 2: Ejecutar el Instalador. 
 
@@ -39,20 +36,25 @@ La instalación de VMware Workstation llevará unos minutos. Una vez completada,
 * Recuerda que VMware Workstation tiene una amplia gama de características avanzadas para la virtualización y la gestión de máquinas virtuales, por lo que te recomendamos explorar la
   documentación y tutoriales de VMware para aprovechar al máximo esta potente herramienta.
 
-## WMware-Workstation-licencia
-Instalar VMWare Workstation 17 PRO.
+> [!NOTE]
+> ## WMware-Workstation-licencia
+> **Licencias activación WMware WorkSattion Pro 17.**
+> MC60H-DWHD5-H80U9-6V85M-8280D   **<---- ¡Funcionó para mí!**
+> 4A4RR-813DK-M81A9-4U35H-06KND
+> NZ4RR-FTK5H-H81C1-Q30QH-1V2LA
+> JU090-6039P-08409-8J0QH-2YR7F
+> 4Y09U-AJK97-089Z0-A3054-83KLA
+> 4C21U-2KK9Q-M8130-4V2QH-CF810
 
-**Licencias activación WMware WorkSattion Pro 17.**
+> [!IMPORTANT]
+> _¡Si tienes un problema comenta y la gente intentará ayudarte!_
 
-_¡Si tienes un problema comenta y la gente intentará ayudarte!_
-**Clave de licencia.**
 
-MC60H-DWHD5-H80U9-6V85M-8280D < ¡Funcionó para mí!
-4A4RR-813DK-M81A9-4U35H-06KND
-NZ4RR-FTK5H-H81C1-Q30QH-1V2LA
-JU090-6039P-08409-8J0QH-2YR7F
-4Y09U-AJK97-089Z0-A3054-83KLA
-4C21U-2KK9Q-M8130-4V2QH-CF810
+
+
+
+
+
 5U28A-DJ292-4JDA1-102NK-0FKL2
 
 
