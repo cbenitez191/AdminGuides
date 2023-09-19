@@ -7,9 +7,9 @@ que es una de las ediciones más populares de VMware para entornos de estación 
 
 ## Paso 1: Descargar VMware Workstation.
 
-- [x] #739 Abre tu navegador web y ve al sitio web oficial de VMware: https://www.vmware.com/.
-- [x] #739 Navega hasta la sección "Productos" y selecciona "VMware Workstation".
-- [x] #739 Haz clic en "Descargar ahora" para la última versión de VMware Workstation.
+- [x] Abre tu navegador web y ve al sitio web oficial de VMware: https://www.vmware.com/.
+- [x] Navega hasta la sección "Productos" y selecciona "VMware Workstation".
+- [x] Haz clic en "Descargar ahora" para la última versión de VMware Workstation. #739
 
 ## Paso 2: Ejecutar el Instalador. 
 
