@@ -1,7 +1,7 @@
 
 # Guía para Instalar VMware Workstation 17.
 
-VMware es una plataforma de virtualización que te permite ejecutar múltiples'#0969DA' sistemas operativos en una sola máquina física. En esta guía, utilizaremos VMware Workstation, 
+VMware es una plataforma de virtualización que te permite ejecutar múltiples sistemas operativos en una sola máquina física. En esta guía, utilizaremos VMware Workstation, 
 que es una de las ediciones más populares de VMware para entornos de estación de trabajo.
 
 ## Paso 1: Descargar VMware Workstation.
