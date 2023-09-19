@@ -5,7 +5,7 @@
 VMware es una plataforma de virtualización que te permite ejecutar múltiples sistemas operativos en una sola máquina física. En esta guía, utilizaremos VMware Workstation, 
 que es una de las ediciones más populares de VMware para entornos de estación de trabajo.
 
-## Paso 1: Descargar VMware Workstation.
+##                           Paso 1: Descargar VMware Workstation.
 
 - [x] Abre tu navegador web y ve al sitio web oficial de VMware: https://www.vmware.com/.
 - [x] Navega hasta la sección "Productos" y selecciona "VMware Workstation".
