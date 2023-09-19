@@ -1,4 +1,4 @@
-![FeatureContent 3 column _500x280_windows_server](https://github.com/wobistdu003/Administracion-servidores/assets/110427600/f48aef1f-4515-4079-81b6-df924b7fac66)
+    ![FeatureContent 3 column _500x280_windows_server](https://github.com/wobistdu003/Administracion-servidores/assets/110427600/f48aef1f-4515-4079-81b6-df924b7fac66)
 # Administración de Windows Server.
 
 ¡Bienvenido al Curso de Administración de Windows Server, tu camino hacia convertirte en un experto en la gestión de servidores y sistemas empresariales!
