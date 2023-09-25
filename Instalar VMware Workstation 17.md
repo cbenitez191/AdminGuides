@@ -35,9 +35,9 @@ personalizada. La instalación típica es adecuada para la mayoría de los usuar
   importar máquinas virtuales existentes.
 - [x] Recuerda que VMware Workstation tiene una amplia gama de características avanzadas para la virtualización y la gestión de máquinas virtuales, por lo que te recomendamos explorar la
   documentación y tutoriales de VMware para aprovechar al máximo esta potente herramienta.
-
+#
 > [!NOTE]
-> ### Licencias activación WMware WorkSattion Pro 17.
+>  Licencias activación WMware WorkSattion Pro 17.
 - [x] MC60H-DWHD5-H80U9-6V85M-8280D   **<---- ¡Funcionó para mí!**
 - [ ] 4A4RR-813DK-M81A9-4U35H-06KND
 - [ ] NZ4RR-FTK5H-H81C1-Q30QH-1V2LA
