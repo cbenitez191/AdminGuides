@@ -51,7 +51,7 @@ contraseña de administrador de Directory Services y otras configuraciones espec
 - [x] Para aplicar completamente las configuraciones de Active Directory, se te pedirá que reinicies el servidor. Asegúrate de guardar cualquier trabajo no guardado antes de hacerlo.
 # Video:movie_camera:
 
-# :loudspeaker:
+### :loudspeaker:
 > [!NOTE]
 > Una vez que hayas completado estos pasos, habrás instalado Active Directory en tu servidor Windows. Puedes comenzar a administrar usuarios, grupos, políticas de seguridad y otros 
 recursos de red de manera centralizada a través de Active Directory.
