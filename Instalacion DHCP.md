@@ -1,4 +1,5 @@
-![WhatsApp Image 2023-09-25 at 3 00 26 PM](https://github.com/wobistdu003/Administracion-servidores-windows/assets/110427600/9c21c64a-b724-4b02-bb95-245bc9f2e232)
+
+![dhcp](https://github.com/wobistdu003/Administracion-servidores-windows/assets/110427600/dccda1b5-8d32-4471-80a9-21dea018ef89)
 
 # Instalaciòn DHCP server. :page_facing_up:
 Esta guía básica de instalación de DHCP en Windows Server. El Protocolo de Configuración Dinámica de Host (DHCP) es fundamental para asignar direcciones IP de 
