@@ -1,7 +1,7 @@
 
 ![download](https://github.com/wobistdu003/Administracion-servidores-windows/assets/110427600/65f5910a-bd5d-4b07-bb5c-e159ca8fd89f)
 
-# Instalacion active Directory. 
+# Instalacion active Directory. :page_facing_up:
 
 A continuación, te proporcionaré una guía básica paso a paso para la instalación de Active Directory en un servidor con Windows Server. 
 Active Directory es una función importante de Windows Server que permite administrar recursos de red de manera centralizada. Asegúrate de 
