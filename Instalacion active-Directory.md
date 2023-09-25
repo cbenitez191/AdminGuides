@@ -15,7 +15,8 @@ que Windows Server ya esté instalado antes de comenzar con estos pasos.
 ## Paso 2: Agregar roles y características:
 
 - [x] En el "Administrador del servidor", haz clic en "Administrar" en la esquina superior derecha y selecciona "Agregar roles y características".
-    - Se abrirá el Asistente para agregar roles y características. Haz clic en "Siguiente" en la primera pantalla de bienvenida.
+  
+  * Se abrirá el Asistente para agregar roles y características. Haz clic en "Siguiente" en la primera pantalla de bienvenida.
 
 ## Paso 3: Seleccionar tipo de instalación:
 
