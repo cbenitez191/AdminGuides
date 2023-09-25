@@ -35,7 +35,7 @@ personalizada. La instalación típica es adecuada para la mayoría de los usuar
   importar máquinas virtuales existentes.
 - [x] Recuerda que VMware Workstation tiene una amplia gama de características avanzadas para la virtualización y la gestión de máquinas virtuales, por lo que te recomendamos explorar la
   documentación y tutoriales de VMware para aprovechar al máximo esta potente herramienta.
-# Video:movie_camera:
+## Video:movie_camera:
 
 # :loudspeaker:
 > [!NOTE]
