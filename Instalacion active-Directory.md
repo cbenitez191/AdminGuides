@@ -57,5 +57,6 @@ contraseña de administrador de Directory Services y otras configuraciones espec
 > [!NOTE]
 > Una vez que hayas completado estos pasos, habrás instalado Active Directory en tu servidor Windows. Puedes comenzar a administrar usuarios, grupos, políticas de seguridad y otros 
 recursos de red de manera centralizada a través de Active Directory.
+
 > [!IMPORTANT]
 Recuerda que esta es una guía básica y que los detalles pueden variar según la versión específica de Windows Server que estés utilizando.
