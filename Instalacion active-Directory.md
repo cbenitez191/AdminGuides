@@ -49,7 +49,8 @@ contraseña de administrador de Directory Services y otras configuraciones espec
 
 ## Paso 11: Reiniciar el servidor:
 - [x] Para aplicar completamente las configuraciones de Active Directory, se te pedirá que reinicies el servidor. Asegúrate de guardar cualquier trabajo no guardado antes de hacerlo.
-# Video:movie_camera:
+# Video
+## :movie_camera:
 
 ### :loudspeaker:
 > [!NOTE]
