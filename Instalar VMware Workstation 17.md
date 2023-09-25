@@ -37,7 +37,7 @@ personalizada. La instalación típica es adecuada para la mayoría de los usuar
   documentación y tutoriales de VMware para aprovechar al máximo esta potente herramienta.
 ## Video:movie_camera:
 
-# :loudspeaker:
+### :loudspeaker:
 > [!NOTE]
 >  Licencias activación WMware WorkSattion Pro 17. :page_facing_up:
 - [x] MC60H-DWHD5-H80U9-6V85M-8280D   **<---- ¡Funcionó para mí!**
