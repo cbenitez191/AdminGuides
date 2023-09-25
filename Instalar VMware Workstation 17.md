@@ -11,23 +11,23 @@ que es una de las ediciones más populares de VMware para entornos de estación 
 - [x] Navega hasta la sección "Productos" y selecciona "VMware Workstation".
 - [x] Haz clic en "Descargar ahora" para la última versión de VMware Workstation.
 
-## Paso 2: Ejecutar el Instalador. 
+## Paso 2: Ejecutar el Instalador. :page_facing_up:
 
 - [x] Una vez que se complete la descarga, busca el archivo de instalación descargado (por lo general, tiene una extensión .exe) y haz doble clic en él para ejecutarlo.
 - [x] Si se te solicita, acepta los términos y condiciones de la licencia y sigue las instrucciones en pantalla para continuar.
 
-## Paso 3: Configurar la Instalación.
+## Paso 3: Configurar la Instalación. :page_facing_up:
 
 - [x] En la pantalla de configuración, puedes elegir si deseas permitir la participación en el programa de mejora de productos de VMware y si deseas realizar la instalación típica o 
 personalizada. La instalación típica es adecuada para la mayoría de los usuarios, pero puedes seleccionar la personalizada si deseas especificar opciones específicas.
 - [x] Sigue las instrucciones en pantalla para configurar las opciones de instalación, como la ubicación de instalación y el nombre de usuario y contraseña para la licencia (si se requiere).
 - [x] Haz clic en "Siguiente" y luego en "Instalar" para comenzar la instalación.
 
-## Paso 4: Completar la Instalación.
+## Paso 4: Completar la Instalación. :page_facing_up:
 
 - [x] La instalación de VMware Workstation llevará unos minutos. Una vez completada, verás un mensaje de confirmación. Haz clic en "Finalizar" para cerrar el asistente de instalación.
 
-## Paso 5: Iniciar VMware Workstation.
+## Paso 5: Iniciar VMware Workstation. :page_facing_up:
 
 - [x] Busca el icono de VMware Workstation en tu escritorio o en el menú de inicio de Windows y haz doble clic en él para abrir la aplicación.
 - [x] Cuando se inicie VMware Workstation, se te pedirá que ingreses tu clave de licencia o que elijas la opción de prueba gratuita si aún no tienes una licencia.
@@ -39,7 +39,7 @@ personalizada. La instalación típica es adecuada para la mayoría de los usuar
 
 # :loudspeaker:
 > [!NOTE]
->  Licencias activación WMware WorkSattion Pro 17.
+>  Licencias activación WMware WorkSattion Pro 17. :page_facing_up:
 - [x] MC60H-DWHD5-H80U9-6V85M-8280D   **<---- ¡Funcionó para mí!**
 - [ ] 4A4RR-813DK-M81A9-4U35H-06KND
 - [ ] NZ4RR-FTK5H-H81C1-Q30QH-1V2LA
