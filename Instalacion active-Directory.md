@@ -3,6 +3,16 @@
 
 # Instalacion active Directory. :page_facing_up:
 
+Active Directory (AD) es un servicio de directorio desarrollado por Microsoft que se utiliza en entornos de redes basados en Windows Server
+que se utiliza para gestionar y organizar los recursos de una red, como usuarios, grupos, computadoras, impresoras y otros objetos de red.
+Esta funcion te permite:
+
+* Gestionar identidades y acceso.
+* Crear una organización jerárquica.
+* Gestionar politicas de grupo.
+* Sguridad.
+* Gestionar servicios de directorio global.
+
 A continuación, te proporcionaré una guía básica paso a paso para la instalación de Active Directory en un servidor con Windows Server. 
 Active Directory es una función importante de Windows Server que permite administrar recursos de red de manera centralizada. Asegúrate de 
 que Windows Server ya esté instalado antes de comenzar con estos pasos.
