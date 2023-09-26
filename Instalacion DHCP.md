@@ -1,8 +1,15 @@
 
 ![dhcp](https://github.com/wobistdu003/Administracion-servidores-windows/assets/110427600/9da947c3-44a7-4966-bda9-58d3be29fd75)
 
-# Instalaciòn DHCP server. :page_facing_up:
-Esta guía básica de instalación de DHCP en Windows Server. El Protocolo de Configuración Dinámica de Host (DHCP) es fundamental para asignar direcciones IP de 
+# Instalación DHCP server. :page_facing_up:
+
+El DHCP (Dynamic Host Configuration Protocol), o Protocolo de Configuración Dinámica de Host en español, es un protocolo de red que opera bajo una estructura 
+cliente-servidor. En esta configuración, se encuentran uno o varios servidores DHCP y uno o varios clientes que deben establecer una comunicación efectiva. La 
+función principal de este protocolo es asignar direcciones IP de forma automática y dinámica. Esto puede involucrar la asignación de direcciones IP privadas 
+por parte del enrutador a los dispositivos dentro de la red local o la asignación de direcciones IP públicas por parte de un proveedor de servicios que emplea 
+este protocolo para establecer la conexión.
+
+Esta es guía básica de instalación de DHCP en Windows Server. El Protocolo de Configuración Dinámica de Host (DHCP) es fundamental para asignar direcciones IP de 
 forma automática a dispositivos en una red. Aquí tienes los pasos para configurar un servidor DHCP en Windows Server:
 
 ## Paso 1: Inicia sesión en tu servidor. 
