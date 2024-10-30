@@ -31,7 +31,7 @@ Algunos de los puntos destacados incluyen:
 * Planificación de Respaldos y Recuperación: Desarrollarás estrategias sólidas de respaldo y recuperación, asegurando la continuidad de tus operaciones.
 
 * Automatización y Gestión Remota: Aprenderás a administrar servidores de forma remota y automatizar tareas, aumentando la eficiencia y la productividad.
-
+  
 
 # Este curso está diseñado para:
 
