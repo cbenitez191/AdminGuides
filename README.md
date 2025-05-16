@@ -1,12 +1,12 @@
-# 🪟 Scripts y Guías para Administración de Windows Server
+# 🪟 Scripts y guías para administración de Windows Server
 
-## 📌 Descripción del Proyecto
+## 📌 Descripción del Proyecto.
 
 Esta sección del repositorio contiene documentación técnica y, próximamente, scripts en PowerShell orientados a la administración de **Windows Server**. Está diseñada para apoyar tareas comunes como configuración de roles, mantenimiento, creación de usuarios y automatización de tareas administrativas en entornos reales o de laboratorio.
 
 ---
 
-## 🎯 Objetivos
+## 🎯 Objetivos.
 
 - Reunir guías paso a paso para roles y servicios en Windows Server.
 - Incluir scripts que automaticen tareas administrativas frecuentes.
@@ -15,7 +15,7 @@ Esta sección del repositorio contiene documentación técnica y, próximamente,
 
 ---
 
-## 📁 Estructura de la Carpeta `Windows/`
+## 📁 Estructura de la Carpeta `Windows/`.
 
 | Archivo / Script                              | Descripción                                                                 |
 |-----------------------------------------------|-----------------------------------------------------------------------------|
@@ -29,7 +29,7 @@ Esta sección del repositorio contiene documentación técnica y, próximamente,
 
 ---
 
-## ⚙️ Ejemplos de Scripts PowerShell (Próximamente)
+## ⚙️ Ejemplos de Scripts PowerShell.
 
 - `verificar_servicios.ps1`: Revisa servicios críticos y los reinicia si están detenidos.
 - `backup_directorios.ps1`: Realiza copias de seguridad de carpetas clave.
@@ -38,8 +38,37 @@ Esta sección del repositorio contiene documentación técnica y, próximamente,
 - `crear_usuarios_AD.ps1`: Automatiza la creación de usuarios en Active Directory desde CSV.
 
 ---
+# 🐧 Administración de Servidores Linux.
 
-## 👥 Público Objetivo
+Esta carpeta está dedicada a la administración de servidores Linux, incluyendo scripts en Bash y documentación técnica orientada a tareas comunes de administración, mantenimiento y monitoreo. Es ideal para automatizar procesos repetitivos y aplicar buenas prácticas en entornos reales o de laboratorio.
+
+---
+
+## 📄 Scripts Disponibles.
+
+| Script                                 | Descripción                                                                 |
+|----------------------------------------|-----------------------------------------------------------------------------|
+| `verificar_ruta.sh`                    | Solicita una ruta y valida si corresponde a un archivo, directorio o si no existe. |
+| `monitorear_disco.sh` *(pendiente)*    | Revisa el uso del disco y lanza alertas si se supera un umbral.            |
+| `backup_rapido.sh` *(pendiente)*       | Realiza una copia de seguridad comprimida (`tar.gz`) de un directorio.     |
+| `actualizar_sistema.sh` *(pendiente)*  | Automatiza la actualización del sistema (`apt`, `yum`, o `dnf`).           |
+| `crear_usuarios.sh` *(pendiente)*      | Crea múltiples usuarios desde un archivo `.csv`.                           |
+
+---
+
+## 📚 Documentación (Futura).
+
+| Archivo sugerido                          | Descripción                                                                 |
+|-------------------------------------------|-----------------------------------------------------------------------------|
+| `Introduccion_Linux_Server.md`            | Conceptos básicos sobre administración de servidores Linux.                 |
+| `Configuracion_SSH_Seguro.md`             | Recomendaciones para proteger el acceso remoto SSH.                         |
+| `Hardening_Basico_Linux.md`               | Pasos iniciales para reforzar la seguridad de un servidor Linux.            |
+| `Instalacion_Servidor_Web_Apache.md`      | Instalación y configuración básica de Apache como servidor web.             |
+| `Configurar_Cron_Tareas_Automatizadas.md` | Guía para automatizar tareas con cron.                                      |
+
+---
+
+## 👥 Público Objetivo.
 
 Este material está dirigido a:
 
@@ -50,15 +79,7 @@ Este material está dirigido a:
 
 ---
 
-## 🚀 Próximas Mejoras
-
-- Agregar scripts PowerShell funcionales y comentados.
-- Incluir capturas de pantalla y referencias a documentación oficial.
-- Automatización de tareas de hardening básico en Windows Server.
-
----
-
-## 📬 Contribuciones
+## 📬 Contribuciones.
 
 ¿Tienes un procedimiento documentado o script útil en PowerShell?  
 ¡Tu aporte puede ser muy valioso!  
