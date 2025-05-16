@@ -1,83 +1,70 @@
-# 🧰 Scripts para Administración de Servidores – Windows y Linux
+# 🪟 Scripts y Guías para Administración de Windows Server
 
 ## 📌 Descripción del Proyecto
 
-Este repositorio contiene una colección de scripts prácticos para la administración de servidores **Windows** y **Linux**. Está diseñado para ayudar a automatizar tareas del día a día, mejorar la seguridad, optimizar el rendimiento y aplicar buenas prácticas en entornos de infraestructura TI reales.
+Esta sección del repositorio contiene documentación técnica y, próximamente, scripts en PowerShell orientados a la administración de **Windows Server**. Está diseñada para apoyar tareas comunes como configuración de roles, mantenimiento, creación de usuarios y automatización de tareas administrativas en entornos reales o de laboratorio.
 
 ---
 
 ## 🎯 Objetivos
 
-- Automatizar procesos repetitivos y críticos en servidores.
-- Brindar herramientas listas para usar en tareas de administración.
-- Fortalecer la seguridad y eficiencia operativa.
-- Servir como base para formación técnica y entornos profesionales.
+- Reunir guías paso a paso para roles y servicios en Windows Server.
+- Incluir scripts que automaticen tareas administrativas frecuentes.
+- Facilitar el aprendizaje técnico para estudiantes y profesionales de TI.
+- Servir como base para prácticas de laboratorio y producción.
 
 ---
 
-## 📁 Estructura del Repositorio
+## 📁 Estructura de la Carpeta `Windows/`
 
-| Carpeta / Script                | Descripción                                                                 |
-|--------------------------------|-----------------------------------------------------------------------------|
-| [`Linux/`](./Linux)            | Scripts en Bash para administración de sistemas Linux: monitoreo, backups, usuarios, validaciones, entre otros. |
-| [`Windows/`](./Windows)        | Scripts en PowerShell para administración de Windows Server: servicios, usuarios, inventarios, mantenimientos, etc. |
-| [`README.md`](./README.md)     | Archivo principal con la descripción general del repositorio y guía de uso. |
-
----
-
-## 🐧 Ejemplos de Scripts en Linux
-
-- `verificar_ruta.sh`: Valida si una ruta es un archivo, un directorio o no existe.
-- `monitorear_disco.sh`: Evalúa el uso del disco y alerta si supera un umbral.
-- `backup_rapido.sh`: Realiza copias comprimidas de rutas importantes.
-- `actualizar_sistema.sh`: Automatiza la actualización del sistema (`apt` o `yum`).
-- `crear_usuarios.sh`: Crea usuarios desde un archivo `.csv`.
+| Archivo / Script                              | Descripción                                                                 |
+|-----------------------------------------------|-----------------------------------------------------------------------------|
+| `Introduccion_Windows_server.md`              | Introducción a conceptos clave de Windows Server.                          |
+| `Configuracion DNS.md`                        | Guía de instalación y configuración del rol DNS.                           |
+| `Instalacion DHCP.md`                         | Instalación y configuración del servicio DHCP.                             |
+| `Instalacion active-Directory.md`             | Implementación de Active Directory Domain Services (AD DS).                |
+| `Novedades_Windows_server_2022.md`            | Características destacadas de Windows Server 2022.                         |
+| `Editar imagen iso windows.md`                | Cómo personalizar imágenes ISO para despliegue automatizado.              |
+| `Instalar VMware Workstation 17.md`           | Instalación de VMware Workstation para entornos de prueba o desarrollo.    |
 
 ---
 
-## 🪟 Ejemplos de Scripts en Windows
+## ⚙️ Ejemplos de Scripts PowerShell (Próximamente)
 
 - `verificar_servicios.ps1`: Revisa servicios críticos y los reinicia si están detenidos.
-- `backup_directorios.ps1`: Copia de seguridad de carpetas clave.
-- `limpiar_temp.ps1`: Elimina archivos temporales del sistema.
-- `inventario_software.ps1`: Lista de software instalado.
-- `crear_usuarios_AD.ps1`: Crea usuarios en Active Directory desde archivo `.csv`.
+- `backup_directorios.ps1`: Realiza copias de seguridad de carpetas clave.
+- `limpiar_temp.ps1`: Limpia archivos temporales del sistema.
+- `inventario_software.ps1`: Genera un inventario de software instalado.
+- `crear_usuarios_AD.ps1`: Automatiza la creación de usuarios en Active Directory desde CSV.
 
 ---
 
 ## 👥 Público Objetivo
 
-Este proyecto está dirigido a:
+Este material está dirigido a:
 
-- Administradores de sistemas y redes
-- Ingenieros de infraestructura
-- Técnicos de soporte de servidores
-- Estudiantes de TI interesados en automatización y scripting
+- Administradores de sistemas Windows
+- Técnicos de soporte en entornos empresariales
+- Estudiantes de redes, sistemas o infraestructura
+- Profesionales que deseen documentar y automatizar su entorno Windows
 
 ---
 
 ## 🚀 Próximas Mejoras
 
-- Agregar scripts en Python multiplataforma.
-- Incluir registros (`logs`) de tareas automatizadas.
-- Integración con herramientas como Zabbix, Wazuh o Grafana.
-- Plantillas de hardening para servidores Linux y Windows.
+- Agregar scripts PowerShell funcionales y comentados.
+- Incluir capturas de pantalla y referencias a documentación oficial.
+- Automatización de tareas de hardening básico en Windows Server.
 
 ---
 
 ## 📬 Contribuciones
 
-¿Tienes una mejora o un nuevo script para aportar?  
-¡Las contribuciones son bienvenidas!
-
-1. Haz un fork del repositorio
-2. Crea una rama nueva con tus cambios
-3. Envía un Pull Request con tu aporte
-4. También puedes abrir un *issue* con sugerencias o problemas
+¿Tienes un procedimiento documentado o script útil en PowerShell?  
+¡Tu aporte puede ser muy valioso!  
+Puedes enviar un Pull Request o abrir un *issue* con tu sugerencia.
 
 ---
 
 📌 **Autor:** Carlos Benítez – CBTech  
-🔒 Proyecto orientado a la eficiencia, seguridad y profesionalismo en la administración de servidores.
-
-
+🛡️ Proyecto técnico en desarrollo para fortalecer la administración de servidores Windows.
